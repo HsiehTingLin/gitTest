@@ -15,6 +15,7 @@
 		8284351D1D87E01800DC8972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284351B1D87E01800DC8972 /* LaunchScreen.storyboard */; };
 		828435281D87E01800DC8972 /* gitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828435271D87E01800DC8972 /* gitTestTests.swift */; };
 		828435331D87E01800DC8972 /* gitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828435321D87E01800DC8972 /* gitTestUITests.swift */; };
+		828435411D87E4C900DC8972 /* newSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828435401D87E4C900DC8972 /* newSwiftFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8284352E1D87E01800DC8972 /* gitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		828435321D87E01800DC8972 /* gitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTestUITests.swift; sourceTree = "<group>"; };
 		828435341D87E01800DC8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828435401D87E4C900DC8972 /* newSwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newSwiftFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				828435101D87E01800DC8972 /* AppDelegate.swift */,
 				828435121D87E01800DC8972 /* FirstViewController.swift */,
+				828435401D87E4C900DC8972 /* newSwiftFile.swift */,
 				828435141D87E01800DC8972 /* SecondViewController.swift */,
 				828435161D87E01800DC8972 /* Main.storyboard */,
 				828435191D87E01800DC8972 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828435411D87E4C900DC8972 /* newSwiftFile.swift in Sources */,
 				828435151D87E01800DC8972 /* SecondViewController.swift in Sources */,
 				828435111D87E01800DC8972 /* AppDelegate.swift in Sources */,
 				828435131D87E01800DC8972 /* FirstViewController.swift in Sources */,
@@ -488,6 +492,7 @@
 				828435391D87E01800DC8972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8284353A1D87E01800DC8972 /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				8284353C1D87E01800DC8972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8284353D1D87E01800DC8972 /* Build configuration list for PBXNativeTarget "gitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				8284353F1D87E01800DC8972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
